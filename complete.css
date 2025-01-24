@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body{
+    background-color: aquamarine;
+    position: relative;
+}
+
+p {
+    padding: 50px;
+    width: 57%;
+    font-size: 30px;
+    height: 70vh;
+    text-align: center;
+    font-family: cursive;
+    margin-left: 360px;
+    box-shadow: -28px -14px 27px rgb(74, 71, 71);
+    background-color: rgb(202, 228, 17);
+    margin-top: 80px;
+    padding-top: 37px;
+    z-index: -1;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translate(0 );
+    }
+    50% {
+        transform: translateX(50px);}
+        
+    100% {
+        transform: translateX(0);
+    }
+}
+
+img {
+    
+  position: absolute;
+  z-index: 10;
+}
+.broader-line{
+    font-size: 51px;
+    margin-bottom: 10px;
+}
+
+.confetti {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    animation: confetti-fall linear 5s infinite;
+  }
+  
+  @keyframes confetti-fall {
+    0% {
+      transform: translateY(-100%) rotate(0);
+    }
+    100% {
+      transform: translateY(100vh) rotate(180deg);
+    }
+}

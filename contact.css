@@ -1,0 +1,63 @@
+table, th, td {
+    /* border: 5px solid; */
+    width: 50%;
+    /* box-shadow: -28px -14px 27px rgb(192, 233, 219);
+     */
+    
+  }
+  table{
+    width: 20%;
+    height: 50%;
+    margin-left: 360px;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: -6px 27px 48px rgb(85, 87, 87);
+    
+    border: 3px solid;
+  }
+
+  td{
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+  }
+
+  /* tr:hover{ */
+    /* background-color: rgb(136, 68, 43); */
+    tr:nth-child(even) {background-color:white;}
+    tr:nth-child(odd) {background-color:white;}
+
+
+  th{
+    font-size: 38px;
+    background-color: brown;
+    color: white;
+    
+  }
+
+  h1{
+    text-align: center;
+    font-size: 83px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(243, 40, 80);
+  }
+  .table_us img{
+    width: 525px;
+    margin-left: -22px;
+    bottom: -35px;
+    position: absolute;
+    z-index: -1;
+    rotate: 45degree;
+}
+  
+  body{
+    height: 90vh;
+    width: 90vb;
+    background-color: aquamarine;
+   
+  }
+  .content{
+    margin-left: 150px;
+    z-index: 10;
+  }
+  

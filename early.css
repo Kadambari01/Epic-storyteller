@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+    position: relative;
+}
+
+#farewell {
+    border: 10px 5px solid black;
+    padding: 50px;
+    width: 57%;
+    font-size: 30px;
+    height: 50vh;
+    text-align: center;
+    font-family: cursive;
+    margin-left: 300px;
+    box-shadow: -28px -14px 27px rgb(74, 71, 71);
+    background-color: rgb(202, 228, 17);
+    margin-top: -161px;
+    padding-top: 104px;
+}
+@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+img {
+    
+   margin-top: 0px;
+    animation: moveImage 2s infinite; /* 2s duration, infinite loop */
+}
+.broader-line{
+    font-size: 40px;
+}

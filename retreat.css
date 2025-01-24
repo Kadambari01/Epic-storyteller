@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+   top: 0;
+    position: relative;
+    height: 100vh;
+}
+
+ .bg{  /*background image */
+
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    z-index: -1;
+    top: 0;
+  }
+  
+
+p{
+   
+    top: 84px;
+  color:white;
+  margin-left: 150px;
+  z-index: 10;
+  position: absolute;
+  display: block;
+  font-size: 26px;
+  font-family: cursive;
+  margin-right: 100px;
+  background-color: rgba(26, 26, 26, 0.5);
+  margin-top: 157px;
+}
+
+.broader-line{
+    margin-left: 200px;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@keyframes moveImage {
+
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.goodbye {
+    
+   margin-bottom: 0px;
+    animation: moveImage 2s infinite; /* 2s duration, infinite loop */
+}
